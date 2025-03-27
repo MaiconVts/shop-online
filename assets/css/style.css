@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+    margin: 10px 20px 10px 5px;
+}
+.header-logo-title {
+    margin: 5px;
+}
+.header-icons img{
+    margin: 10px;
+}
+.header-icons img:hover {
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2), 0 6px 20px 0 rgb(0,0,0,0.19);
+}
+.section-banner img{
+    width: 100vw;
+    height: auto;
+}
+.section-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(251, 249, 249);
+
+}
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 20px;
+    padding: 50px;
+    margin: 15px;
+    width: 100vw;
+}
+.main-container a:hover, 
+.main-container img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.p-title-card {
+    font-weight: 600;
+}
+.p-color-price {
+    color: green;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 226, 226);
+    padding: 50px;
+    width: 100vw;
+}
+.footer-info {
+    font-weight: 600;
+    width: 40vw;
+}
+.footer-info a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+}
+.footer-info a:hover, p:hover {
+    padding: 2px;
+    color: rgb(251, 249, 249);
+    text-decoration: underline;
+
+}
+.footer-newsletter input{
+    padding: 10px;
+    width: 40vw;
+}
+.footer-newsletter input:hover{
+    padding: 12px;
+}
+.footer-newsletter button {
+    padding: 10px 30px;
+    color: white;
+    background: green;
+}
+.footer-news-letter button:hover {
+    background: rgb(67, 203, 57);
+    padding: 12px 32px;
+}
